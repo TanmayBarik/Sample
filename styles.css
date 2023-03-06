@@ -1,7 +1,3 @@
-.main{
-    margin-top: 100px;
-}
-
 .search-input {
     display: block;
     width: 400px;
@@ -23,7 +19,8 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    width : 300px;
+    margin-top: 50px;
+    width: 300px;
 }
 
 .btn {
@@ -42,6 +39,10 @@
 }
 
 .btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.center {
     display: flex;
     justify-content: center;
 }
